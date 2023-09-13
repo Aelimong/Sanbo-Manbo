@@ -1,0 +1,121 @@
+@import "./style.scss";
+
+// curation 스타일 시작
+.sec05-curation {
+  height: 833px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec05-mb-1 {
+  margin-bottom: 1rem;
+}
+
+.sec05-mb-3 {
+  margin-bottom: 3rem;
+}
+
+.sec05-mb-16 {
+  margin-bottom: 16px;
+}
+
+.sec05-mb-32 {
+  margin-bottom: 32px;
+}
+
+.sec05-card {
+  height: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-radius: 35px !important;
+
+  div {
+    font-size: 32px;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    line-height: 2rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: var(--text-gray-40);
+  }
+}
+// curation 스타일 끝남
+
+// crew 스타일 시작
+
+.sec05-crew-flex {
+  width: 100%;
+  display: flex;
+}
+
+.sec05-crew-img-box1 {
+  background-image: url("../assets/curation-jy/crew-img-box1.png");
+  height: 220px;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  flex-grow: 2;
+  width: 61%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h4{
+    color: var(--text-gray-20);
+  }
+}
+.sec05-crew-img-box2 {
+  background-image: url("../assets/curation-jy/crew-img-box2.png");
+  height: 220px;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h4{
+    color: var(--text-gray-20);
+    margin-left: 2rem;
+  }
+}
+.sec05-crew-img-box3 {
+  background-image: url("../assets/curation-jy/crew-img-box3.png");
+  height: 220px;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  flex-grow: 1;
+  width: 21%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h4{
+    color: var(--text-gray-20);
+    margin-left: -2rem;
+
+  }
+}
+.sec05-crew-img-box4 {
+  background-image: url("../assets/curation-jy/crew-img-box4.png");
+  height: 220px;
+  background-repeat: no-repeat;
+  flex-grow: 2;
+  width: 61%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h4{
+    color: var(--text-gray-20);
+  }
+}

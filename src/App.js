@@ -1,4 +1,6 @@
 import Header from "./components/Header";
+import Curation from "./components/Curation";
+import Crew from "./components/Crew";
 import "./styles/style.scss";
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
         {/* 3. 띠 배너 */}
         {/* 4. 주제별 트레킹 */}
         {/* 5. 큐레이션 지도 */}
+        <Curation/>
+        <Crew/>
         {/* 6. 크루모집 */}
         {/* 7. 산보만보 스토리 */}
       </main>
