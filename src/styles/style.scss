@@ -28,7 +28,7 @@ h5,
 h6,
 p,
 span {
-  font-family: "SUIT", sans-serif;
+  font-family: "SUIT", sans-serif !important;
   color: var(--text-gray-100);
 }
 
@@ -79,7 +79,7 @@ p {
 }
 
 .wrapper {
-  max-width: 1240px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
