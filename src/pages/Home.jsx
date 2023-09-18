@@ -5,6 +5,8 @@ import Location from "../components/Location";
 import Main_Location from "../components/Main_Location";
 import Curation from "../components/Curation";
 import Crew from "../components/Crew";
+import Story from "../components/Story";
+import Footer from "../components/Footer";
 import "../styles/style.scss";
 
 function Home() {
@@ -25,8 +27,10 @@ function Home() {
         {/* 6. 크루모집 */}
         <Crew />
         {/* 7. 산보만보 스토리 */}
+        <Story/>
       </main>
       {/* Footer */}
+      <Footer/>
     </>
   );
 }
