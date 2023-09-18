@@ -13,7 +13,7 @@ export default function ThemaTreck() {
             <h3>난이도별 트레킹</h3>
             <p>초급, 중급, 상급까지 다양하게</p>
             <button>
-              <Link to="/test1">
+              <Link to="/course">
                 바로가기&nbsp;&nbsp;
                 <i
                   className="fa-solid fa-arrow-right"
@@ -32,7 +32,7 @@ export default function ThemaTreck() {
             <h3>계절별 트레킹</h3>
             <p>산에서 계절을 느껴보세요</p>
             <button>
-              <Link to="/test2">
+              <Link to="/course">
                 바로가기&nbsp;&nbsp;
                 <i
                   className="fa-solid fa-arrow-right"
