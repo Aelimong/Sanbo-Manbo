@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Course from "./pages/Course";
 import NotFound from "./pages/NotFound";
 
+
 function App() {
   return (
     <>

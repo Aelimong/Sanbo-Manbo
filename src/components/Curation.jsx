@@ -29,14 +29,16 @@ export default function Curation() {
             <Grid item xs={4}>
               <Item className="sec05-card">
                 <div>🚶</div>
-                <h4>저질 체력도 가면 좋은 산책로</h4>
+                <h4>저질 체력도 가면 좋은</h4>
+                <h4 className="sec05-card-text-line">산책로</h4>
                 <p>8개의 장소</p>
               </Item>
             </Grid>
             <Grid item xs={4}>
               <Item className="sec05-card">
                 <div>👨‍👩‍👧‍👦</div>
-                <h4>저질 체력도 가면 좋은 산책로</h4>
+                <h4>저질 체력도 가면 좋은</h4>
+                <h4 className="sec05-card-text-line">산책로</h4>
                 <p>8개의 장소</p>
               </Item>
             </Grid>
@@ -45,9 +47,10 @@ export default function Curation() {
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
             <Grid item xs={4}>
-              <Item className="sec05-card ">
+              <Item className="sec05-card">
                 <div>🙋‍♀️🙋‍♂️</div>
-                <h4>우리 동네에 친구가 놀러오면 데려 가는 곳</h4>
+                <h4>우리 동네에 친구가 놀러오면</h4>
+                <h4 className="sec05-card-text-line">데려 가는 곳</h4>
                 <p>8개의 장소</p>
               </Item>
             </Grid>
