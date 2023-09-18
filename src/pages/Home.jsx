@@ -1,7 +1,6 @@
 import "../styles/style.scss";
 import Header from "../components/Header";
 import ThemaTreck from "../components/ThemaTreck";
-import Header from "./components/Header";
 import Location from "../components/Location";
 import Main_Location from "../components/Main_Location";
 import Curation from "../components/Curation";
@@ -22,9 +21,9 @@ function Home() {
         {/* 4. 주제별 트레킹 */}
         <ThemaTreck />
         {/* 5. 큐레이션 지도 */}
-        <Curation/>
+        <Curation />
         {/* 6. 크루모집 */}
-        <Crew/>
+        <Crew />
         {/* 7. 산보만보 스토리 */}
       </main>
       {/* Footer */}
