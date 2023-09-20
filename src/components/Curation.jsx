@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import "../styles/curation.scss";
+import { useSelector, useDispatch } from "react-redux";
 
 export default function Curation() {
   const Item = styled(Paper)(({ theme }) => ({
@@ -13,6 +14,8 @@ export default function Curation() {
     color: theme.palette.text.secondary,
   }));
 
+  const courseList = useSelector((state) => state);
+console.log(courseList);
   return (
     <section className="sec05-curation">
       <div className="wrapper">
@@ -74,3 +77,9 @@ export default function Curation() {
     </section>
   );
 }
+
+// export default function Course() {
+//   const courseList = useSelector((state) => state);
+  
+//   return (<></>);
+// }
